@@ -2,8 +2,8 @@
 
 To start app write commands in terminal, which is geven below:
 
-    npm start,
-    npm run dev:client,
+    npm start
+    npm run dev:client
     npm run dev:server
 
 Type of site: Two tiers
@@ -13,12 +13,12 @@ Exercises:
     Backend server,
     MVC structure,
     Database,
-    Validation
+    Validation;
 
 Technologies: 
     NodeJs,
     Express, 
-    PostgresQL
+    PostgresQL;
 
 Packages:
     chalk, 
@@ -26,4 +26,4 @@ Packages:
     dotenv, 
     express, 
     joi, 
-    pg
+    pg;
