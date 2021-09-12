@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    align-self: center;
+    padding: 40px 0;
+    font-size: 50px;
+}
+
+div {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+
+div a {
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: underline;
+}

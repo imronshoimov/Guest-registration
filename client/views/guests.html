@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/guests.css">
+</head>
+<body>
+    <div> 
+        <h1>Guests</h1>
+
+        <div class="links">
+            <a href="/">home</a>
+            <a href="/registration">registration</a>
+        </div>
+        
+        <div class="selects">
+            <button id="showAll">show all</button>
+            <select id="selectCitizenship" name="citizenship"></select>
+            
+            <select id="selectCategory" name="categoryNumber"></select>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Имя</th>
+                    <th>Гражданство</th>
+                    <th>Паспорт</th>
+                    <th>Дата заезда</th>
+                    <th>Дата выезда</th>
+                    <th>Категория номера</th>
+                    <th>Тип номера</th>
+                    <th>Номер</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                
+            </tbody>
+        </table>
+    </div>
+    
+    <script src="/js/request.js"></script>
+    <script src="/js/guests.js"></script>
+</body>
+</html>

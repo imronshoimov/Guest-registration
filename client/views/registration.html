@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/registration.css">
+</head>
+<body>
+    <h1>Registration page</h1>
+    
+    <div>
+        <a href="/">home</a>
+        <a href="/guests">guests</a>
+    </div>
+
+    <p id="errorMessage"></p>
+    
+    <form id="guestForm">
+        <label>
+            <p>Фамилия</p>
+            <input type="text" id="lastName" name="lastName" placeholder="Фамилия">
+        </label>
+        <label>
+            <p>Имя</p>
+            <input type="text" id="firstName" name="firstName" placeholder="Имя">
+        </label>
+        <label>
+            <p>Отчество</p>
+            <input type="text" id="middleName" name="middleName" placeholder="Отчество">
+        </label>
+        <label>
+            <p>Гражданство</p>
+            <input type="text" id="citizenship" name="citizenship" placeholder="Гражданство" required>
+        </label>
+        <label>
+            <p>Серия паспорта</p>
+            <input type="text" id="passportSeria" name="passportSeria" placeholder="Серия паспорта" required maxlength="2">
+        </label>
+        <label>
+            <p>Номер паспорта</p>
+            <input type="number" id="passportNumber" name="passportNumber" placeholder="Номер паспорта" required>
+        </label>
+        <label>
+            <p>Дата заезда</p>
+            <input type="datetime-local" id="arrivalDate" name="arrivalDate" required>
+        </label>
+        <label>
+            <p>Дата выезда</p>
+            <input type="datetime-local" id="dateOfDeparture" name="dateOfDeparture">
+        </label>
+        <label>
+            <p>Категория номера</p>
+            <select name="categoryNumber" id="categoryNumber">
+                <option value="Стандарт">Стандарт</option>
+                <option value="Делюсь">Делюсь</option>
+                <option value="Люкс">Люкс</option>
+            </select>
+        </label>
+        <label>
+            <p>Тип номера</p>
+            <select name="numberOfType" id="numberOfType">
+                <option value="Одноместный">Одноместный</option>
+                <option value="Двухместный">Двухместный</option>
+            </select>
+        </label>
+        <label>
+            <p>Номер</p>
+            <input type="number" id="number" name="number" placeholder="Номер" required>
+        </label>
+        <button type="submit">submit</button>
+    </form>
+    
+    <script src="/js/request.js"></script>
+    <script src="/js/registration.js"></script>
+</body>
+</html>
+
+
