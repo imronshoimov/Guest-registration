@@ -1,3 +1,3 @@
 # Guest-registration
 
-<img url="https:picsum.photos/300" alt="image">
+<img src="https:picsum.photos/300" alt="image">
